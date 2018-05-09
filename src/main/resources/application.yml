@@ -1,0 +1,14 @@
+spring.jpa.hibernate.ddl-auto: none
+spring.datasource.url: jdbc:hsqldb:file:addon-db # Use a file-based backing store for HSQL
+
+addon:
+  key: devoptics-connect
+  #base-url: http://localhost:${local.server.port}
+  base-url: https://4445e1fa.ngrok.io
+
+logging.level.com.atlassian.connect.spring: DEBUG
+
+# from https://stackoverflow.com/questions/21083170/spring-boot-how-to-configure-port
+server.port: 8087
+
+atlassian.connect.allow-reinstall-missing-host: true

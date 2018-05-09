@@ -1,0 +1,6 @@
+.idea/
+addon-db.log
+addon-db.properties
+addon-db.script
+connect.iml
+target/

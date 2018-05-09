@@ -1,0 +1,18 @@
+{
+  "key": "${addon.key}",
+  "baseUrl": "${addon.base-url}",
+  "name": "DevOptics Connect",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled",
+    "clientKey": "dpalmer-cloudbees-client-key",
+    "oauthClientId": "devoptics-shared-secret-simple-for-now"
+  },
+  "scopes": [
+    "READ",
+    "ACT_AS_USER"
+  ]
+}
